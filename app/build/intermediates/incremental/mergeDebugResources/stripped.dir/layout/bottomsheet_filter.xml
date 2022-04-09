@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp12" android:tag="layout/bottomsheet_filter_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/textview_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/dp8"
+            android:layout_marginBottom="@dimen/dp8"
+            android:layout_marginLeft="@dimen/dp4"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp8"
+            app:layout_constraintTop_toBottomOf="@id/textview_category" />
+
+        <TextView
+            android:id="@+id/textview_sub_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SubCategories"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recyclerview_category"
+            android:layout_marginTop="@dimen/dp8"
+            android:layout_marginBottom="@dimen/dp8"
+            android:layout_marginLeft="@dimen/dp4"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_sub_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp8"
+            app:layout_constraintTop_toBottomOf="@id/textview_sub_category" />
+
+        <TextView
+            android:id="@+id/textview_coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SubCategories"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recyclerview_sub_category"
+            android:layout_marginTop="@dimen/dp8"
+            android:layout_marginBottom="@dimen/dp8"
+            android:layout_marginLeft="@dimen/dp4"/>
+
+        <com.google.android.material.slider.RangeSlider
+            android:id="@+id/coin_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp8"
+            android:theme="@style/MySliderTheme"
+            app:layout_constraintTop_toBottomOf="@id/textview_coins"
+            android:valueFrom="0.0"
+            android:valueTo="1000.0"
+            android:stepSize="1.0"/>
+
+        <LinearLayout
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp15"
+            android:background="@drawable/colorbtn"
+            android:backgroundTint="@color/dark_pink"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp10"
+            app:layout_constraintTop_toBottomOf="@id/coin_range">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/next_btn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp15" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

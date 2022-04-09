@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,181,239,293,355,413,472,525,583,634,691",
+                        "endColumns": "69,55,57,53,61,57,58,52,57,50,56,57",
+                        "endOffsets": "120,176,234,288,350,408,467,520,578,629,686,744"
+                    }
+                }
+            ]
+        }
+    ]
+}

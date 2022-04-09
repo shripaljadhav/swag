@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+
+    <RelativeLayout
+        android:id="@+id/parent_layout_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        tools:context=".view.activities.IntroActivity" android:tag="layout/activity_intro_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager2"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="100dp" />
+
+        <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+            android:id="@+id/wormDotsIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            app:dotsColor="@color/dark_pink"
+            app:dotsCornerRadius="@dimen/dp8"
+            app:dotsSize="@dimen/dp16"
+            app:dotsSpacing="@dimen/dp4"
+            app:dotsStrokeColor="@color/black"
+            app:dotsStrokeWidth="@dimen/dp2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/size_18"
+            android:layout_marginBottom="@dimen/dp20">
+
+            <TextView
+                android:id="@+id/skip_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/skip_btn"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp18" />
+
+            <TextView
+                android:id="@+id/nextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/next_btn"
+                android:textAllCaps="true"
+                android:textColor="@color/dark_pink"
+                android:textSize="@dimen/sp18" />
+        </LinearLayout>
+    </RelativeLayout>
+
+         

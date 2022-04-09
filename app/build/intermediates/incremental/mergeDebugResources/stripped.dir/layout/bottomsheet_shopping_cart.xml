@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp20"
+        android:paddingRight="@dimen/dp20"
+        android:paddingTop="@dimen/dp30"
+        android:paddingBottom="@dimen/dp30"
+        android:background="@drawable/rounded_top_edges" android:tag="layout/bottomsheet_shopping_cart_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/someone_else_is_shopping"/>
+
+        <LinearLayout
+            android:id="@+id/btn_add_to_cart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp25"
+            android:background="@drawable/profile_drawable"
+            android:backgroundTint="@color/dark_pink"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp10"
+            app:layout_constraintTop_toBottomOf="@id/textview_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/passion_btn_continue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/add_to_cart"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/sp15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passion_btn_continue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp15"
+            android:background="@drawable/colorbtn"
+            android:backgroundTint="@color/dark_pink"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp10"
+            android:layout_marginLeft="@dimen/dp10"
+            app:layout_constraintLeft_toRightOf="@id/btn_add_to_cart"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/next_btn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp15" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

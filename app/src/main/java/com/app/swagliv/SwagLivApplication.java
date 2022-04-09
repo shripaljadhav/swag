@@ -57,6 +57,9 @@ public class SwagLivApplication extends Application implements LifecycleEventObs
     private GoogleSignInClient googleSignInClient;
     private Socket mSocket;
 
+    private static final String ONESIGNAL_APP_ID = "ca7f07ce-8f58-414c-bfad-2b4fa59a3c26";
+
+
     public static SwagLivApplication getInstance() {
         return ourInstance;
     }
@@ -67,6 +70,11 @@ public class SwagLivApplication extends Application implements LifecycleEventObs
         ourInstance = this;
         isAppInForeground = true;
 
+        OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.VERBOSE);
+        // OneSignal Initialization
+        OneSignal.initWithContext(this);
+        OneSignal.setAppId(ONESIGNAL_APP_ID);
+
         OneSignal.setNotificationOpenedHandler(
                 result -> {
 
@@ -74,7 +82,6 @@ public class SwagLivApplication extends Application implements LifecycleEventObs
 
                         try {
                             String channelName = result.getNotification().getAdditionalData().getString("channelName");
-                            String uid = result.getNotification().getAdditionalData().getString("uid");
                             int role = result.getNotification().getAdditionalData().getInt("role");
                             String agoraToken = result.getNotification().getAdditionalData().getString("publisherToken");
                             String liveStreamId = result.getNotification().getAdditionalData().getString("liveStreamId");

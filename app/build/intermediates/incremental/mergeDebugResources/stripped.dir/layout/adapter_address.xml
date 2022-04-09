@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_address_adapter"
+        android:padding="@dimen/dp12" android:tag="layout/adapter_address_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/textview_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="Rex Nick"
+            android:textSize="@dimen/sp20"
+            android:textColor="@color/dark_pink"/>
+
+        <TextView
+            android:id="@+id/textview_edit"
+            android:layout_width="@dimen/dp48"
+            android:layout_height="@dimen/dp20"
+            android:text="@string/edit"
+            android:textColor="@color/dark_pink"
+            android:textSize="@dimen/sp11"
+            app:layout_constraintRight_toLeftOf="@id/radio_address"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"
+            android:background="@color/button_color"
+            android:layout_marginRight="@dimen/dp16"/>
+
+        <RadioButton
+            android:id="@+id/radio_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:buttonTint="@color/dark_pink"/>
+
+        <TextView
+            android:id="@+id/textview_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textview_username"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="Plot 29, xyz society, xyz nagar\nNAGPUR"
+            android:maxLines="2"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginTop="@dimen/dp8"/>
+
+        <TextView
+            android:id="@+id/textview_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textview_address"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="987654321"
+            android:maxLines="2"
+            android:layout_marginTop="@dimen/dp12"
+            android:textSize="@dimen/sp14"
+            android:textColor="@color/light_black"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

@@ -1,0 +1,1550 @@
+[
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_location_v2.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_location_v2.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_gold_button.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/gold_button.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_star_coin.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/star_coin.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_drawable_spinner.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/drawable_spinner.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_search.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_search.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_black_strock_bg.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/black_strock_bg.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_common_header.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/common_header.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/font_notosans_regular.ttf.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/font/notosans_regular.ttf"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_rounded_button.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_rounded_button.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_gradation_black.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/gradation_black.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_store.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_store.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/menu_bottom_navigation_menu.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_user_data_bg_unselected.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/user_data_bg_unselected.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_close.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_close.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_gradient_background.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_gradient_background.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_reset_password.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_videocam_pink.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_videocam_pink.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_super_like.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_super_like.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_dialog_background.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_dialog_background.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_bottomsheet_someone_else_shopping.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottomsheet_someone_else_shopping.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/menu_activity_main_drawer.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/font_roboto_regular.ttf.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_person_img.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/person_img.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_incoming.wav.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/incoming.wav"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_search_screen.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_search_screen.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_side_bar_screen.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_side_bar_screen.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_advertise.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_advertise.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_button.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_button.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_like.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_like.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_circle.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/circle.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_sub_category.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_sub_category.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_visibility_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_visibility_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_attach_file_white.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_attach_file_white.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_blue_strock_btn.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/blue_strock_btn.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_fragment_joinchannel_video.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_joinchannel_video.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_add_product_images.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_add_product_images.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_colors.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_colors.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_portfolio.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_portfolio.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_pink_video.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_pink_video.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_shop.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_shop.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_clap.gif.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/clap.gif"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_gps.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_gps.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_calm.gif.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/calm.gif"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_filter_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/filter_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_musicalnote.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_musicalnote.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_drawable_rounded_corner_for_dialog.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/drawable_rounded_corner_for_dialog.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_video.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/video.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_broadcast_player.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_broadcast_player.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_like_icon.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/like_icon.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_feedback_background_img.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/feedback_background_img.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_chat.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_textbutton.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/textbutton.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_signup.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_friendship_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/friendship_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_bottomsheet_for_love_.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottomsheet_for_love_.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_cancel_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_cancel_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_fragment_like.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_like.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_white_elevation_layout.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/white_elevation_layout.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_signin.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/signin.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_delete.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_delete.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_rectangle_address.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_rectangle_address.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_seconddrawable.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/seconddrawable.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_shop.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_shop.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_upload_error_white_24.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/upload_error_white_24.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_profile_text_frame.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/profile_text_frame.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_blank_user_profile.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_blank_user_profile.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_overlay_black.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/overlay_black.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_chat.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_chat.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_nav_header_dasboard_nav_drawer.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/nav_header_dasboard_nav_drawer.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_selected.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/selected.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_draw_circle.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/draw_circle.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_filter.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_filter.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_my_order.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_my_order.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_my_order_detail.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_my_order_detail.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_strock_btn.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/strock_btn.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_otp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_otp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_upload_success.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/upload_success.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_check_box_selector.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/check_box_selector.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_store_product_detail.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_store_product_detail.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_passion_selection.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_passion_selection.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_picture.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_picture.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_img2.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/img2.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/font_notosans_bold.ttf.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/font/notosans_bold.ttf"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_add_product.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_add_product.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_colorbtn.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/colorbtn.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_pictures.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/pictures.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_profile_baground_img.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/profile_baground_img.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_super_like_rounded_border.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_super_like_rounded_border.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_subscription.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_subscription.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rectangle_1.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rectangle_1.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_search_bar.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/search_bar.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_celebrate_friends.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/celebrate_friends.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_filter_background.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/filter_background.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_gender_selcted_btn.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/gender_selcted_btn.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_girl_bg_image.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/girl_bg_image.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_connect_partner.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/connect_partner.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_verify_otp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_verify_otp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_rectangle_btn_gredent.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_rectangle_btn_gredent.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_progress.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_progress.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_connection_list_item.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/connection_list_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_setting.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_setting.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_dialog_call.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/dialog_call.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_menu_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_menu_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_phone.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_phone.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_tinder.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_tinder.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/menu_dasboard_nav_drawer.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/menu/dasboard_nav_drawer.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_girl_image1.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/girl_image1.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_menu_camera.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_row_right_chat.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/row_right_chat.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_store.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_store.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_fragment_message.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_message.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_side_bar_frame.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/side_bar_frame.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_voilet_btn.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_voilet_btn.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/color_bottom_nav_selector.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/color/bottom_nav_selector.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_solid_black_btn.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/solid_black_btn.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_img1.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/img1.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_camera_upload.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_camera_upload.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_mic_white_off_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_mic_white_off_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_upload_file_white_24dp.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/upload_file_white_24dp.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_volume_up_white_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_volume_up_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_price.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_price.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_voice.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_voice.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_uselected_right.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/uselected_right.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_user_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/user_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_filled_button_bg.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/filled_button_bg.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_dislike_btn.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/dislike_btn.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_my_order.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_my_order.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_forgot_password.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_firstdrawable.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/firstdrawable.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_wallet.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_wallet.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_close_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_go_premium.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_go_premium.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_help_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/help_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_background_for_images.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_background_for_images.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_circle_time_inactive.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_circle_time_inactive.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_thanks.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/thanks.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_create_address.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_create_address.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_silver_subscription_plan.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/silver_subscription_plan.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_call_end_white_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_call_end_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_edit_profile.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_edit_profile.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rewind_btn.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rewind_btn.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_bg_add.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_bg_add.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_right_arrow.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_right_arrow.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_fragment_profile.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_slider_item.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/slider_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_intro_img_4.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/intro_img_4.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_float_ic_baground.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/float_ic_baground.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_outgoing.wav.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/outgoing.wav"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_rounded.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_rounded.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_person_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_product_listing.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_product_listing.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_match.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_match.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/font_dancing_script.ttf.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/font/dancing_script.ttf"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_baseline_sensors_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/baseline_sensors_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_bottomsheet_filter.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottomsheet_filter.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bg_bottomsheet.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bg_bottomsheet.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_price_highlited_border.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/price_highlited_border.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_purchase.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_purchase.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_vector.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/vector.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_bottomsheet_shopping_cart.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottomsheet_shopping_cart.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_app_complaint.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/app_complaint.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_normal.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/normal.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_call_white_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_call_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_rewind_border.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_rewind_border.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_side_nav_bar.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_product_listing.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_product_listing.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_search_gif.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_search_gif.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_purchase_history.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_purchase_history.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_image.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_image.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_round_corner_view.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/round_corner_view.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_gif.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/gif.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_search_crush.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_search_crush.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_home_screen_background.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/home_screen_background.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_hedder.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_hedder.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_date_flu_logo.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/date_flu_logo.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_rectangle_address_adapter.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_rectangle_address_adapter.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_shopping_cart.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_shopping_cart.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_search.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_search.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_send_white.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_send_white.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_grtadient_background.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/grtadient_background.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_circle_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_circle_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_plus.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_plus.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_sign_out.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_sign_out.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_shopping_for_love.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_shopping_for_love.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_circle.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_circle.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_top_edges.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_top_edges.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_banana.gif.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/banana.gif"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_btn_for_connection.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_btn_for_connection.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_video_one.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_video_one.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/navigation_mobile_navigation2.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/navigation/mobile_navigation2.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_message_typing_bg.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/message_typing_bg.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_go_live.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_go_live.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_gif_item_background.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/gif_item_background.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_currency_rupee_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_currency_rupee_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_filter_v2.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_filter_v2.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_meet_perfect_match.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/meet_perfect_match.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_wallet_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/wallet_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_search_crush.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/search_crush.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_log_out_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/log_out_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_top_sheet_view.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/top_sheet_view.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_like_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/like_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_select_host_item.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/select_host_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_forgot_password.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/forgot_password.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_circletime_active.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_circletime_active.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_like_new.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_like_new.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_shopping_cart.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_shopping_cart.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_chat_comment_item.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/chat_comment_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_menu_slideshow.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_chat_background.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_chat_background.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bg_send_bt.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bg_send_bt.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_select_host_radiobutton.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/select_host_radiobutton.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_icon_setting.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/icon_setting.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_search_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_platinum_subscription_plan.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/platinum_subscription_plan.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_edit_profile.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_email_signin.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_email_signin.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_nav_drawer_pofile.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/nav_drawer_pofile.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bottom_navigation_view.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bottom_navigation_view.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_stopwatch.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_stopwatch.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_google.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_google.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_price_normal_border.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/price_normal_border.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_img3.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/img3.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_unselected.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/unselected.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_edit_information.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_edit_information.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_trackcomplaint.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_trackcomplaint.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_call_black_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_call_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_complaint.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/complaint.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bg_et.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bg_et.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_date_range_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_date_range_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_fb.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_fb.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_gallery.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_gallery.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_profile.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_profile.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_bluetooth_white_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_bluetooth_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_pink_strock.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/pink_strock.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_like_picture.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_like_picture.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_phonelink_ring_white_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_phonelink_ring_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_meetfriends.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/meetfriends.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_magictool.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_magictool.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_bottom_sheet_dialog_layout_money.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottom_sheet_dialog_layout_money.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_like_btn.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/like_btn.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_adapter_images.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/adapter_images.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_image_preview_screen.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_image_preview_screen.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/font_robot_font.ttf.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/font/robot_font.ttf"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_layout_filter.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/layout_filter.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_profile_header.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/profile_header.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_call_pink.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_call_pink.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_make_your_profile.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/make_your_profile.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_store.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_store.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_my_order.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_my_order.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_feedback.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/feedback.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_camera_one.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_camera_one.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_uselected_middle.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/uselected_middle.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bg_stream.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bg_stream.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_gold_subscription_plan.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/gold_subscription_plan.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_top_sheet.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/top_sheet.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_dashboad.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_dashboad.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_store.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_store.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_picturecard.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/picturecard.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_supperlike_btn.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/supperlike_btn.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_manage_connection.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_manage_connection.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_top_sheet_avtivity.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_top_sheet_avtivity.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_sign_in_img.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/sign_in_img.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_add_product_images.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_add_product_images.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_profile_baground.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/profile_baground.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_signin_signup.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/signin_signup.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_help_faq.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_help_faq.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_disconnect.wav.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/disconnect.wav"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_user_data_bg_selected.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/user_data_bg_selected.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_photo_camera.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/photo_camera.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_showgenderselection.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/showgenderselection.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_swagliv_logo.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/swagliv_logo.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_gallery_upload.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_gallery_upload.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_bottom_nav.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_bottom_nav.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_search_filter.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_search_filter.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_drop_down_arrow.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_drop_down_arrow.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_search_frame.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/search_frame.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_select_host.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_select_host.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_profile_drawable.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/profile_drawable.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_camera.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_camera.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_mic_white_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_mic_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_dasboard_nav_drawer.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_dasboard_nav_drawer.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_app_logo.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/app_logo.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_btn_gradient.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/btn_gradient.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_rounded_corner.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_rounded_corner.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bg_img_complaint.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bg_img_complaint.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_match.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/match.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rewind_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rewind_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_menu_gallery.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_category.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_category.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/font_salsa_regular.ttf.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/font/salsa_regular.ttf"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_check_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_livestreaming.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_livestreaming.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_edit_address.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_edit_address.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_side_bar_baground.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/side_bar_baground.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_genderselection.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/genderselection.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_change_password.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bg_gradent.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bg_gradent.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bg_button.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bg_button.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_search_gif_item.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/search_gif_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_location.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_location.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_amount.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_amount.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_background_layout.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/background_layout.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_delivery_address.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_delivery_address.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_like_btn_background.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/like_btn_background.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_thunder.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_thunder.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_outline_button_bg.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/outline_button_bg.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_product_list_one.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_product_list_one.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_dialog_thanks.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/dialog_thanks.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_my_location.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_my_location.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_rounded_corner_button.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_rounded_corner_button.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_help_and_faq.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_help_and_faq.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/menu_menu.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_message.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_message.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_track_complaint.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_track_complaint.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_data.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_data.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_click.gif.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/click.gif"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_shopping_cart_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/shopping_cart_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_profile_hedder.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/profile_hedder.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_keyboard_arrow_down_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_add_circle_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_add_circle_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_add_phone.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_add_phone.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_frame_white_stroke.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/frame_white_stroke.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_content_dasboard_nav_drawer.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/content_dasboard_nav_drawer.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_confirm_password.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/confirm_password.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_purchase_history.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_purchase_history.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_spinner_category.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_spinner_category.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_premium_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/premium_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_change_password.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/change_password.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_user_request_item.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/user_request_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_switchcamera.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_switchcamera.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_dark_mode.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_dark_mode.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_rewind.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_rewind.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_common_header_v2.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/common_header_v2.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_supper_like_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/supper_like_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_baseline_videocam_24.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_baseline_videocam_24.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_row_left_chat.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/row_left_chat.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_home.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_home.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_login_img.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/login_img.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_adapter_address.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/adapter_address.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_app_feedback.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/app_feedback.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_sign_up.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/sign_up.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bg_time_list.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bg_time_list.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_user_profile.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_user_requests.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_user_requests.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_hand_shake.gif.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/hand_shake.gif"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_location_gpsallow_permission.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_location_gpsallow_permission.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_headset_mic_white_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_headset_mic_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_rounded_btn.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/rounded_btn.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_add_floating_ic.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/add_floating_ic.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/raw_reset_password.json.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/raw/reset_password.json"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_calendar.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/calendar.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_cart.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_cart.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_pause_white_24dp.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_pause_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_activity_intro.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_intro.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_porfolio.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_porfolio.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_request_dialog.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/request_dialog.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_ic_nav_shopping_cart.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/ic_nav_shopping_cart.png"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/layout_item_shopping_for_love.xml.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_shopping_for_love.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/merged_res/debug/drawable_bg_item.png.flat",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/drawable/bg_item.png"
+    }
+]

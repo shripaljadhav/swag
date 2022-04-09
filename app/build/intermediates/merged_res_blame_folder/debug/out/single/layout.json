@@ -1,0 +1,462 @@
+[
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_search.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_search.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_price.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_price.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_thanks.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/dialog_thanks.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_dasboard_nav_drawer.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/content_dasboard_nav_drawer.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_product_listing.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_product_listing.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_track_complaint.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_track_complaint.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/top_sheet.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/top_sheet.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_match.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_match.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_address.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_create_address.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_intro.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_intro.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_user_profile.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_call.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/dialog_call.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_shopping_cart.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_shopping_cart.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_my_order.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_my_order.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit_address.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_edit_address.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_progress.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_progress.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/white_elevation_layout.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/white_elevation_layout.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/row_left_chat.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/row_left_chat.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_dashboad.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_dashboad.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_picture.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_picture.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_dasboard_nav_drawer.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/nav_header_dasboard_nav_drawer.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_phone.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_phone.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/select_host_item.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/select_host_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_shopping_for_love.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_shopping_for_love.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_order.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_my_order.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_forgot_password.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_go_live.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_go_live.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chat.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_store_product_detail.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_store_product_detail.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_sub_category.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_sub_category.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/user_request_item.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/user_request_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bottomsheet_for_love_.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottomsheet_for_love_.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_camera.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_camera.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_screen.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_search_screen.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_help_and_faq.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_help_and_faq.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_images.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/adapter_images.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_signup.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bottomsheet_someone_else_shopping.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottomsheet_someone_else_shopping.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_wallet.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_wallet.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_user_requests.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_user_requests.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_dasboard_nav_drawer.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_dasboard_nav_drawer.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/slider_item.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/slider_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bottomsheet_filter.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottomsheet_filter.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/connection_list_item.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/connection_list_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_phone.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_add_phone.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_like.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_like.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/confirm_password.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/confirm_password.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_side_bar_screen.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_side_bar_screen.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_add_product_images.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_add_product_images.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bottomsheet_shopping_cart.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottomsheet_shopping_cart.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_filter.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/layout_filter.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_order_detail.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_my_order_detail.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_gallery.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_gallery.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/app_feedback.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/app_feedback.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_colors.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_colors.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_trackcomplaint.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_trackcomplaint.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_top_sheet_avtivity.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_top_sheet_avtivity.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_product_listing.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_product_listing.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_shop.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_shop.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_amount.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_amount.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit_information.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_edit_information.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_purchase.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_purchase.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit_profile.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_chat.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_chat.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_subscription.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_subscription.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_advertise.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_advertise.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_otp.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_otp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/background_layout.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/background_layout.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_porfolio.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_porfolio.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/app_complaint.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/app_complaint.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/genderselection.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/genderselection.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_portfolio.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_portfolio.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_reset_password.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_shopping_for_love.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_shopping_for_love.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/common_header_v2.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/common_header_v2.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_location_gpsallow_permission.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_location_gpsallow_permission.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_shopping_cart.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_shopping_cart.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/common_header.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/common_header.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_store.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_store.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_purchase_history.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_purchase_history.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bottom_sheet_dialog_layout_money.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/bottom_sheet_dialog_layout_money.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_category.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_category.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_message.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_message.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_joinchannel_video.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_joinchannel_video.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_spinner_category.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_spinner_category.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/search_gif_item.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/search_gif_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_change_password.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_store.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_store.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_address.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/adapter_address.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_product_images.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_add_product_images.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_tinder.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_tinder.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/showgenderselection.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/showgenderselection.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_gif.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_search_gif.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_image_preview_screen.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_image_preview_screen.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_like_picture.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_like_picture.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_broadcast_player.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_broadcast_player.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/request_dialog.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/request_dialog.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_delivery_address.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_delivery_address.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/chat_comment_item.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/chat_comment_item.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_voice.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_voice.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_shop.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_shop.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_crush.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_search_crush.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_data.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/item_data.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_passion_selection.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_passion_selection.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_select_host.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_select_host.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/row_right_chat.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/row_right_chat.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_email_signin.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_email_signin.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_manage_connection.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_manage_connection.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_verify_otp.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_verify_otp.xml"
+    },
+    {
+        "merged": "/Users/sapnarathod/Downloads/android_swagliv/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_product.xml",
+        "source": "/Users/sapnarathod/Downloads/android_swagliv/app/src/main/res/layout/activity_add_product.xml"
+    }
+]

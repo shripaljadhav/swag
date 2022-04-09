@@ -1,0 +1,1572 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.swagliv"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:8:5-81
+13-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:9:5-79
+14-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:10:5-77
+15-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:10:22-74
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:11:5-80
+16-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:12:5-81
+17-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:13:5-65
+18-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:13:22-62
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:14:5-71
+19-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:14:22-68
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:15:5-68
+20-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:15:22-65
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:16:5-80
+21-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:16:22-77
+22
+23    <uses-feature
+23-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:18:5-20:35
+24        android:name="android.hardware.camera.any"
+24-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:19:9-51
+25        android:required="true" />
+25-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:20:9-32
+26    <uses-feature
+26-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:21:5-23:36
+27        android:name="android.hardware.camera"
+27-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:22:9-47
+28        android:required="false" />
+28-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:23:9-33
+29    <uses-feature
+29-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:24:5-26:36
+30        android:name="android.hardware.camera.autofocus"
+30-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:25:9-57
+31        android:required="false" />
+31-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:26:9-33
+32    <uses-feature
+32-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:27:5-29:36
+33        android:name="android.hardware.camera.flash"
+33-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:28:9-53
+34        android:required="false" />
+34-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:29:9-33
+35    <uses-feature
+35-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:30:5-32:36
+36        android:name="android.hardware.camera.front"
+36-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:31:9-53
+37        android:required="false" />
+37-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:32:9-33
+38
+39    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+39-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-84
+39-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:22-81
+40    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+40-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:5-76
+40-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:22-73
+41    <uses-permission
+41-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:5-68
+42        android:name="android.permission.BLUETOOTH"
+42-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:22-65
+43        android:maxSdkVersion="30" />
+43-->[com.twilio:audioswitch:1.1.4] /Users/sapnarathod/.gradle/caches/transforms-3/0dd78cff9d6f750814ceb41149522ec6/transformed/jetified-audioswitch-1.1.4/AndroidManifest.xml:11:9-35
+44    <uses-permission android:name="android.permission.READ_LOGS" />
+44-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:5-68
+44-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:22-65
+45    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+45-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:5-75
+45-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:22-72
+46
+47    <uses-feature
+47-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:45:5-47:35
+48        android:glEsVersion="0x00020000"
+48-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:9-41
+49        android:required="true" />
+49-->[:lib-player-helper] /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-32
+50
+51    <permission
+51-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:24:5-27:47
+52        android:name="com.app.swagliv.andpermission.bridge"
+52-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:25:9-61
+53        android:permissionGroup="com.app.swagliv.andpermission"
+53-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:26:9-65
+54        android:protectionLevel="signature" />
+54-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:27:9-44
+55
+56    <uses-permission android:name="com.app.swagliv.andpermission.bridge" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+56-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:29:5-77
+56-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:29:22-74
+57    <permission
+57-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:7:5-9:47
+58        android:name="com.app.swagliv.permission.C2D_MESSAGE"
+58-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:8:9-63
+59        android:protectionLevel="signature" />
+59-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:9:9-44
+60
+61    <uses-permission android:name="com.app.swagliv.permission.C2D_MESSAGE" /> <!-- c2dm RECEIVE are basic requirements for push messages through Google's FCM -->
+61-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:11:5-79
+61-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:11:22-76
+62    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+62-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:17:5-82
+62-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:17:22-79
+63    <!--
+64 Required so the device vibrates on receiving a push notification.
+65         Vibration settings of the device still apply.
+66    -->
+67    <uses-permission android:name="android.permission.VIBRATE" />
+67-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:23:5-66
+67-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:23:22-63
+68    <!--
+69 Use to restore notifications the user hasn't interacted with.
+70         They could be missed notifications if the user reboots their device if this isn't in place.
+71    -->
+72    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+72-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:29:5-81
+72-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:29:22-78
+73    <!-- Samsung -->
+74    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+74-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:31:5-86
+74-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:31:22-83
+75    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+75-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:32:5-87
+75-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:32:22-84
+76    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+76-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:33:5-81
+76-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:33:22-78
+77    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+77-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:34:5-83
+77-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:34:22-80
+78    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+78-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:35:5-88
+78-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:35:22-85
+79    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+79-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:36:5-92
+79-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:36:22-89
+80    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+80-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:37:5-84
+80-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:37:22-81
+81    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+81-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:38:5-83
+81-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:38:22-80
+82    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+82-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:39:5-91
+82-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:39:22-88
+83    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+83-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:40:5-92
+83-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:40:22-89
+84    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+84-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:41:5-93
+84-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:41:22-90
+85    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+85-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:42:5-73
+85-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:42:22-70
+86    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+86-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:43:5-82
+86-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:43:22-79
+87    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+87-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:44:5-83
+87-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:44:22-80
+88    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+88-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:45:5-88
+88-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:45:22-85
+89    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+89-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:46:5-89
+89-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:46:22-86
+90
+91    <queries>
+91-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:11:5-37:15
+92        <intent>
+92-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:12:9-18:18
+93            <action android:name="android.intent.action.VIEW" />
+93-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:17-69
+93-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:25-66
+94
+95            <data
+95-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:17-75
+96                android:mimeType="*/*"
+97                android:scheme="*" />
+97-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:23-72
+98        </intent>
+99        <intent>
+99-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:19:9-28:18
+100            <action android:name="android.intent.action.VIEW" />
+100-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:17-69
+100-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:25-66
+101
+102            <category android:name="android.intent.category.BROWSABLE" />
+102-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:196:17-78
+102-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:196:27-75
+103
+104            <data
+104-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:17-75
+105                android:host="pay"
+106                android:mimeType="*/*"
+107                android:scheme="upi" />
+107-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:23-72
+108        </intent>
+109        <intent>
+109-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:29:9-31:18
+110            <action android:name="android.intent.action.MAIN" />
+110-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:166:17-69
+110-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:166:25-66
+111        </intent>
+112        <intent>
+112-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:32:9-36:18
+113            <action android:name="android.intent.action.SEND" />
+113-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:33:13-65
+113-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:33:21-62
+114
+115            <data android:mimeType="*/*" />
+115-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:17-75
+116        </intent>
+117    </queries>
+118
+119    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+119-->[com.twilio:audioswitch:1.1.4] /Users/sapnarathod/.gradle/caches/transforms-3/0dd78cff9d6f750814ceb41149522ec6/transformed/jetified-audioswitch-1.1.4/AndroidManifest.xml:12:5-76
+119-->[com.twilio:audioswitch:1.1.4] /Users/sapnarathod/.gradle/caches/transforms-3/0dd78cff9d6f750814ceb41149522ec6/transformed/jetified-audioswitch-1.1.4/AndroidManifest.xml:12:22-73
+120    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+120-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:5-110
+120-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:22-107
+121    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+121-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/8c03273991ae66af0af35eb55d0e2584/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+121-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/8c03273991ae66af0af35eb55d0e2584/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+122
+123    <application
+123-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:34:5-301:19
+124        android:name="com.app.swagliv.SwagLivApplication"
+124-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:35:9-43
+125        android:allowBackup="true"
+125-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:36:9-35
+126        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+126-->[androidx.core:core:1.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/4b63fd9f5e63e1f87fc69505923d0d37/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+127        android:debuggable="true"
+128        android:extractNativeLibs="false"
+129        android:icon="@drawable/date_flu_logo"
+129-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:37:9-47
+130        android:label="@string/app_name"
+130-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:38:9-41
+131        android:requestLegacyExternalStorage="true"
+131-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:39:9-52
+132        android:roundIcon="@drawable/date_flu_logo"
+132-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:40:9-52
+133        android:supportsRtl="true"
+133-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:41:9-35
+134        android:testOnly="true"
+135        android:theme="@style/Theme.Swagliv.NoActionBar"
+135-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:42:9-57
+136        android:usesCleartextTraffic="true" >
+136-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:43:9-44
+137
+138        <!-- name doesn't change, value = your class fully name spaced -->
+139        <meta-data
+139-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:46:9-47:93
+140            android:name="com.onesignal.NotificationServiceExtension"
+140-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:46:20-77
+141            android:value="com.app.swagliv.model.livestream.NotificationServiceExtension" />
+141-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:47:13-90
+142
+143        <activity
+143-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:48:9-50:39
+144            android:name="com.app.swagliv.view.activities.BroadcastPlayerActivity"
+144-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:49:13-68
+145            android:exported="true" />
+145-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:50:13-36
+146        <activity
+146-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:51:9-53:38
+147            android:name="com.app.swagliv.view.activities.SelectHostActivity"
+147-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:52:13-63
+148            android:exported="true" />
+148-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:53:13-36
+149        <activity
+149-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:55:9-57:40
+150            android:name="com.app.swagliv.view.activities.SearchGIFActivity"
+150-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:56:13-62
+151            android:exported="false" />
+151-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:57:13-37
+152        <activity
+152-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:58:9-60:40
+153            android:name="com.app.swagliv.view.activities.TrackComplaintActivity"
+153-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:59:13-67
+154            android:exported="false" />
+154-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:60:13-37
+155        <activity
+155-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:61:9-63:40
+156            android:name="com.app.swagliv.view.activities.ShopActivity"
+156-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:62:13-57
+157            android:exported="false" />
+157-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:63:13-37
+158        <activity
+158-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:64:9-66:40
+159            android:name="com.app.swagliv.view.activities.PortfolioActivity"
+159-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:65:13-62
+160            android:exported="false" />
+160-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:66:13-37
+161        <activity
+161-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:67:9-69:40
+162            android:name="com.app.swagliv.view.activities.ChangePasswordActivity"
+162-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:68:13-67
+163            android:exported="false" />
+163-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:69:13-37
+164        <activity
+164-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:70:9-72:40
+165            android:name="com.app.swagliv.view.activities.ResetPasswordActivity"
+165-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:71:13-66
+166            android:exported="false" />
+166-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:72:13-37
+167        <activity
+167-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:73:9-75:40
+168            android:name="com.app.swagliv.view.activities.ForgotPasswordActivity"
+168-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:74:13-67
+169            android:exported="false" />
+169-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:75:13-37
+170        <activity
+170-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:76:9-81:20
+171            android:name="com.app.swagliv.view.activities.ChatActivity"
+171-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:77:13-57
+172            android:exported="true"
+172-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:78:13-36
+173            android:screenOrientation="portrait"
+173-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:80:13-49
+174            android:windowSoftInputMode="adjustNothing" >
+174-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:79:13-56
+175        </activity>
+176        <activity
+176-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:82:9-85:52
+177            android:name="com.app.swagliv.view.activities.SideBarActivity"
+177-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:83:13-60
+178            android:exported="false"
+178-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:84:13-37
+179            android:screenOrientation="portrait" />
+179-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:85:13-49
+180        <activity
+180-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:86:9-89:52
+181            android:name="com.app.swagliv.view.activities.PurchaseHistoryActivity"
+181-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:87:13-68
+182            android:exported="false"
+182-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:88:13-37
+183            android:screenOrientation="portrait" />
+183-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:89:13-49
+184        <activity
+184-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:90:9-93:52
+185            android:name="com.app.swagliv.view.activities.HelpAndFaqActivity"
+185-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:91:13-63
+186            android:exported="false"
+186-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:92:13-37
+187            android:screenOrientation="portrait" />
+187-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:93:13-49
+188        <activity
+188-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:94:9-99:20
+189            android:name="com.app.swagliv.view.activities.SearchCrushActivity"
+189-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:95:13-64
+190            android:exported="true"
+190-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:96:13-36
+191            android:screenOrientation="portrait" >
+191-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:97:13-49
+192        </activity>
+193        <activity
+193-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:100:9-103:51
+194            android:name="com.app.swagliv.view.activities.ManageConnectionActivity"
+194-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:101:13-69
+195            android:exported="false"
+195-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:102:13-37
+196            android:screenOrientation="portrait" />
+196-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:103:13-49
+197        <activity
+197-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:104:9-107:52
+198            android:name="com.app.swagliv.view.activities.SearchScreenActivity"
+198-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:105:13-65
+199            android:exported="false"
+199-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:106:13-37
+200            android:screenOrientation="portrait" />
+200-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:107:13-49
+201        <activity
+201-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:108:9-111:52
+202            android:name="com.app.swagliv.view.activities.WalletActivity"
+202-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:109:13-59
+203            android:exported="false"
+203-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:110:13-37
+204            android:screenOrientation="portrait" />
+204-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:111:13-49
+205        <activity
+205-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:112:9-115:52
+206            android:name="com.app.swagliv.view.activities.FeedbackActivity"
+206-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:113:13-61
+207            android:exported="false"
+207-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:114:13-37
+208            android:screenOrientation="portrait" />
+208-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:115:13-49
+209        <activity
+209-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:116:9-119:52
+210            android:name="com.app.swagliv.view.activities.ComplaintActivity"
+210-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:117:13-62
+211            android:exported="false"
+211-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:118:13-37
+212            android:screenOrientation="portrait" />
+212-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:119:13-49
+213        <activity
+213-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:120:9-123:52
+214            android:name="com.app.swagliv.view.activities.TopSheetAvtivity"
+214-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:121:13-61
+215            android:exported="false"
+215-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:122:13-37
+216            android:screenOrientation="portrait" />
+216-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:123:13-49
+217        <activity
+217-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:124:9-127:52
+218            android:name="com.app.swagliv.view.activities.PassionSelectionActivity"
+218-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:125:13-69
+219            android:exported="false"
+219-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:126:13-37
+220            android:screenOrientation="portrait" />
+220-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:127:13-49
+221        <activity
+221-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:128:9-131:52
+222            android:name="com.app.swagliv.view.activities.EditProfileActivity"
+222-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:129:13-64
+223            android:exported="false"
+223-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:130:13-37
+224            android:screenOrientation="portrait" />
+224-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:131:13-49
+225        <activity
+225-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:132:9-135:52
+226            android:name="com.app.swagliv.view.activities.UserProfileActivity"
+226-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:133:13-64
+227            android:exported="false"
+227-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:134:13-37
+228            android:screenOrientation="portrait" />
+228-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:135:13-49
+229        <activity
+229-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:136:9-139:52
+230            android:name="com.app.swagliv.view.activities.EmailSignInActivity"
+230-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:137:13-64
+231            android:exported="false"
+231-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:138:13-37
+232            android:screenOrientation="portrait" />
+232-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:139:13-49
+233        <activity
+233-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:140:9-143:52
+234            android:name="com.app.swagliv.view.activities.IntroActivity"
+234-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:141:13-58
+235            android:exported="false"
+235-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:142:13-37
+236            android:screenOrientation="portrait" />
+236-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:143:13-49
+237        <activity
+237-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:144:9-147:52
+238            android:name="com.app.swagliv.view.activities.OtpVerifyActivity"
+238-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:145:13-62
+239            android:exported="false"
+239-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:146:13-37
+240            android:screenOrientation="portrait" />
+240-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:147:13-49
+241        <activity
+241-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:148:9-151:52
+242            android:name="com.app.swagliv.view.activities.SubscriptionActivity"
+242-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:149:13-65
+243            android:exported="false"
+243-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:150:13-37
+244            android:screenOrientation="portrait" />
+244-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:151:13-49
+245        <activity
+245-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:152:9-155:52
+246            android:name="com.app.swagliv.view.activities.SignUpActivity"
+246-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:153:13-59
+247            android:exported="false"
+247-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:154:13-37
+248            android:screenOrientation="portrait" />
+248-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:155:13-49
+249        <activity
+249-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:156:9-159:52
+250            android:name="com.app.swagliv.view.activities.LocationGPSAllowPermissionActivity"
+250-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:157:13-79
+251            android:exported="false"
+251-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:158:13-37
+252            android:screenOrientation="portrait" />
+252-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:159:13-49
+253        <activity
+253-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:160:9-170:20
+254            android:name="com.app.swagliv.view.activities.SplashActivity"
+254-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:161:13-59
+255            android:screenOrientation="portrait" >
+255-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:163:13-49
+256            <intent-filter>
+256-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:165:13-169:29
+257                <action android:name="android.intent.action.MAIN" />
+257-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:166:17-69
+257-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:166:25-66
+258
+259                <category android:name="android.intent.category.LAUNCHER" />
+259-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:168:17-77
+259-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:168:27-74
+260            </intent-filter>
+261        </activity>
+262        <activity
+262-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:171:9-175:46
+263            android:name="com.app.swagliv.view.activities.DashboardActivity"
+263-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:172:13-62
+264            android:exported="false"
+264-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:173:13-37
+265            android:launchMode="singleTask"
+265-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:175:13-44
+266            android:screenOrientation="portrait" />
+266-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:174:13-49
+267
+268        <meta-data
+268-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:176:9-178:55
+269            android:name="com.facebook.sdk.ApplicationId"
+269-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:177:13-58
+270            android:value="@string/facebook_app_id" />
+270-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:178:13-52
+271
+272        <activity
+272-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:180:9-183:48
+273            android:name="com.facebook.FacebookActivity"
+273-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:181:13-57
+274            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+274-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:182:13-96
+275            android:label="@string/app_name"
+275-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:183:13-45
+276            android:theme="@style/com_facebook_activity_theme" />
+276-->[com.facebook.android:facebook-common:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/a92bd4361c61163ada8ef4f62f57d9bb/transformed/jetified-facebook-common-12.0.0/AndroidManifest.xml:33:13-63
+277
+278        <meta-data
+278-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:185:9-187:36
+279            android:name="com.facebook.sdk.AutoInitEnabled"
+279-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:186:13-60
+280            android:value="true" />
+280-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:187:13-33
+281
+282        <activity
+282-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:189:9-200:20
+283            android:name="com.facebook.CustomTabActivity"
+283-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:190:13-58
+284            android:exported="true" >
+284-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:191:13-36
+285            <intent-filter>
+285-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:192:13-199:29
+286                <action android:name="android.intent.action.VIEW" />
+286-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:17-69
+286-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:25-66
+287
+288                <category android:name="android.intent.category.DEFAULT" />
+288-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:195:17-76
+288-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:195:27-73
+289                <category android:name="android.intent.category.BROWSABLE" />
+289-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:196:17-78
+289-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:196:27-75
+290
+291                <data android:scheme="@string/fb_login_protocol_scheme" />
+291-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:17-75
+291-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:23-72
+292            </intent-filter>
+293            <intent-filter>
+293-->[com.facebook.android:facebook-common:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/a92bd4361c61163ada8ef4f62f57d9bb/transformed/jetified-facebook-common-12.0.0/AndroidManifest.xml:39:13-48:29
+294                <action android:name="android.intent.action.VIEW" />
+294-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:17-69
+294-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:25-66
+295
+296                <category android:name="android.intent.category.DEFAULT" />
+296-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:195:17-76
+296-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:195:27-73
+297                <category android:name="android.intent.category.BROWSABLE" />
+297-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:196:17-78
+297-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:196:27-75
+298
+299                <data
+299-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:17-75
+300                    android:host="cct.com.app.swagliv"
+301                    android:scheme="fbconnect" />
+301-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:23-72
+302            </intent-filter>
+303        </activity>
+304        <activity
+304-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:201:9-204:52
+305            android:name="com.app.swagliv.view.activities.PhoneActivity"
+305-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:202:13-58
+306            android:exported="false"
+306-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:203:13-37
+307            android:screenOrientation="portrait" />
+307-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:204:13-49
+308        <activity
+308-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:205:9-208:52
+309            android:name="com.app.swagliv.view.activities.LoginActivity"
+309-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:206:13-58
+310            android:exported="false"
+310-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:207:13-37
+311            android:screenOrientation="portrait" />
+311-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:208:13-49
+312
+313        <service
+313-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:210:9-212:40
+314            android:name="com.app.swagliv.image_upload_service.UserDocumentUploadService"
+314-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:211:13-75
+315            android:exported="false" /> <!-- Twilio -->
+315-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:212:13-37
+316        <activity
+316-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:213:9-215:39
+317            android:name="com.app.swagliv.twiliovoice.VoiceActivity"
+317-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:214:13-54
+318            android:exported="true" />
+318-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:215:13-36
+319
+320        <service
+320-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:217:9-225:19
+321            android:name="com.app.swagliv.twiliovoice.IncomingCallNotificationService"
+321-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:218:13-72
+322            android:enabled="true"
+322-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:219:13-35
+323            android:exported="false" >
+323-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:220:13-37
+324            <intent-filter>
+324-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:221:13-224:29
+325                <action android:name="ACTION_ACCEPT" />
+325-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:222:17-56
+325-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:222:25-53
+326                <action android:name="ACTION_REJECT" />
+326-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:223:17-56
+326-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:223:25-53
+327            </intent-filter>
+328        </service> <!-- [START fcm_listener] -->
+329        <service
+329-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:226:9-233:19
+330            android:name="com.app.swagliv.twiliovoice.fcm.VoiceFirebaseMessagingService"
+330-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:227:13-74
+331            android:exported="false"
+331-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:228:13-37
+332            android:stopWithTask="false" >
+332-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:229:13-41
+333            <intent-filter>
+333-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:230:13-232:29
+334                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+334-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:231:17-78
+334-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:231:25-75
+335            </intent-filter>
+336        </service>
+337
+338        <activity
+338-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:234:9-238:69
+339            android:name="com.app.swagliv.view.activities.AddProductImagesActivity"
+339-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:235:13-69
+340            android:exported="false"
+340-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:236:13-37
+341            android:screenOrientation="portrait"
+341-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:237:13-49
+342            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+342-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:238:13-67
+343        <activity
+343-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:239:9-243:69
+344            android:name="com.app.swagliv.view.activities.AddProductActivity"
+344-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:240:13-63
+345            android:exported="false"
+345-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:241:13-37
+346            android:screenOrientation="portrait"
+346-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:242:13-49
+347            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+347-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:243:13-67
+348        <activity
+348-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:244:9-248:69
+349            android:name="com.app.swagliv.view.activities.StoreProductDetailActivity"
+349-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:245:13-71
+350            android:exported="false"
+350-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:246:13-37
+351            android:screenOrientation="portrait"
+351-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:247:13-49
+352            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+352-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:248:13-67
+353        <activity
+353-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:249:9-253:69
+354            android:name="com.app.swagliv.view.activities.ImagePreviewActivity"
+354-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:250:13-65
+355            android:exported="false"
+355-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:251:13-37
+356            android:screenOrientation="portrait"
+356-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:252:13-49
+357            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+357-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:253:13-67
+358        <activity
+358-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:254:9-258:70
+359            android:name="com.app.swagliv.view.activities.ShoppingForLoveActivity"
+359-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:255:13-68
+360            android:exported="false"
+360-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:256:13-37
+361            android:screenOrientation="portrait"
+361-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:257:13-49
+362            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+362-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:258:13-67
+363        <activity
+363-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:259:9-263:70
+364            android:name="com.app.swagliv.view.activities.CreateAddressActivity"
+364-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:260:13-66
+365            android:exported="false"
+365-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:261:13-37
+366            android:screenOrientation="portrait"
+366-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:262:13-49
+367            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+367-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:263:13-67
+368        <activity
+368-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:264:9-268:70
+369            android:name="com.app.swagliv.view.activities.EditAddressActivity"
+369-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:265:13-64
+370            android:exported="false"
+370-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:266:13-37
+371            android:screenOrientation="portrait"
+371-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:267:13-49
+372            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+372-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:268:13-67
+373        <activity
+373-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:269:9-273:70
+374            android:name="com.app.swagliv.view.activities.ShoppingCartActivity"
+374-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:270:13-65
+375            android:exported="false"
+375-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:271:13-37
+376            android:screenOrientation="portrait"
+376-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:272:13-49
+377            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+377-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:273:13-67
+378        <activity
+378-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:274:9-278:70
+379            android:name="com.app.swagliv.view.activities.DeliveryAddressActivity"
+379-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:275:13-68
+380            android:exported="false"
+380-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:276:13-37
+381            android:screenOrientation="portrait"
+381-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:277:13-49
+382            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+382-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:278:13-67
+383        <activity
+383-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:279:9-284:46
+384            android:name="com.app.swagliv.view.activities.StoreActivity"
+384-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:280:13-58
+385            android:exported="false"
+385-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:281:13-37
+386            android:launchMode="singleTask"
+386-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:284:13-44
+387            android:screenOrientation="portrait"
+387-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:282:13-49
+388            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+388-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:283:13-67
+389        <activity
+389-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:285:9-290:46
+390            android:name="com.app.swagliv.view.activities.ProductListingActivity"
+390-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:286:13-67
+391            android:exported="false"
+391-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:287:13-37
+392            android:launchMode="singleTask"
+392-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:290:13-44
+393            android:screenOrientation="portrait"
+393-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:288:13-49
+394            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+394-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:289:13-67
+395        <activity
+395-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:291:9-295:70
+396            android:name="com.app.swagliv.view.activities.MyOrderActivity"
+396-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:292:13-60
+397            android:exported="false"
+397-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:293:13-37
+398            android:screenOrientation="portrait"
+398-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:294:13-49
+399            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+399-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:295:13-67
+400        <activity
+400-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:296:9-300:70
+401            android:name="com.app.swagliv.view.activities.MyOrderDetailActivity"
+401-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:297:13-66
+402            android:exported="false"
+402-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:298:13-37
+403            android:screenOrientation="portrait"
+403-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:299:13-49
+404            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+404-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:300:13-67
+405        <activity
+405-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-16:66
+406            android:name="net.alhazmy13.mediapicker.Image.ImageActivity"
+406-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-73
+407            android:exported="true"
+407-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-36
+408            android:theme="@style/Theme.AppCompat.Translucent" />
+408-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-63
+409        <activity
+409-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-20:66
+410            android:name="net.alhazmy13.mediapicker.Video.VideoActivity"
+410-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-73
+411            android:exported="true"
+411-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-36
+412            android:theme="@style/Theme.AppCompat.Translucent" />
+412-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-63
+413
+414        <provider
+414-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-29:20
+415            android:name="androidx.core.content.FileProvider"
+415-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-62
+416            android:authorities="com.app.swagliv.provider"
+416-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-60
+417            android:grantUriPermissions="true" >
+417-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-47
+418            <meta-data
+418-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-28:58
+419                android:name="android.support.FILE_PROVIDER_PATHS"
+419-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-67
+420                android:resource="@xml/provider_paths" />
+420-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-55
+421        </provider>
+422
+423        <service
+423-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:32:9-40:19
+424            android:name="com.yanzhenjie.permission.bridge.BridgeService"
+424-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:33:13-74
+425            android:exported="false"
+425-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:34:13-37
+426            android:permission="com.app.swagliv.andpermission.bridge"
+426-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:35:13-71
+427            android:process=":permission" >
+427-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:36:13-42
+428            <intent-filter>
+428-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:37:13-39:29
+429                <action android:name="com.app.swagliv.andpermission.bridge" />
+429-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:38:17-80
+429-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:38:25-77
+430            </intent-filter>
+431        </service>
+432
+433        <activity
+433-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:42:9-49:76
+434            android:name="com.yanzhenjie.permission.bridge.BridgeActivity"
+434-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:43:13-75
+435            android:configChanges="orientation"
+435-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:44:13-48
+436            android:exported="false"
+436-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:45:13-37
+437            android:noHistory="true"
+437-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:46:13-37
+438            android:permission="com.app.swagliv.andpermission.bridge"
+438-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:47:13-71
+439            android:process=":permission"
+439-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:48:13-42
+440            android:theme="@style/Permission.Theme.Activity.Transparent" />
+440-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:49:13-73
+441
+442        <provider
+442-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:51:9-59:20
+443            android:name="com.yanzhenjie.permission.FileProvider"
+443-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:52:13-66
+444            android:authorities="com.app.swagliv.file.path.share"
+444-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:53:13-67
+445            android:exported="false"
+445-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:54:13-37
+446            android:grantUriPermissions="true" >
+446-->[com.yanzhenjie:permission:2.0.2] /Users/sapnarathod/.gradle/caches/transforms-3/4991d57786ff83b9a5327c36f6f58984/transformed/jetified-permission-2.0.2/AndroidManifest.xml:55:13-47
+447            <meta-data
+447-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-28:58
+448                android:name="android.support.FILE_PROVIDER_PATHS"
+448-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-67
+449                android:resource="@xml/permission_file_paths" />
+449-->[:imagepicker] /Users/sapnarathod/Downloads/android_swagliv/imagepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-55
+450        </provider>
+451
+452        <receiver
+452-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:49:9-60:20
+453            android:name="com.onesignal.FCMBroadcastReceiver"
+453-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:50:13-62
+454            android:exported="true"
+454-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:51:13-36
+455            android:permission="com.google.android.c2dm.permission.SEND" >
+455-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:52:13-73
+456
+457            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+458            <intent-filter android:priority="999" >
+458-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:55:13-59:29
+458-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:55:28-50
+459                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+459-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:56:17-81
+459-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:56:25-78
+460
+461                <category android:name="com.app.swagliv" />
+461-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:58:17-61
+461-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:58:27-58
+462            </intent-filter>
+463        </receiver>
+464
+465        <service
+465-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:62:9-68:19
+466            android:name="com.onesignal.HmsMessageServiceOneSignal"
+466-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:63:13-68
+467            android:exported="false" >
+467-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:64:13-37
+468            <intent-filter>
+468-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:65:13-67:29
+469                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+469-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:66:17-81
+469-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:66:25-78
+470            </intent-filter>
+471        </service>
+472
+473        <activity
+473-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:70:9-78:20
+474            android:name="com.onesignal.NotificationOpenedActivityHMS"
+474-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:71:13-71
+475            android:exported="true"
+475-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:72:13-36
+476            android:noHistory="true"
+476-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:73:13-37
+477            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+477-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:74:13-72
+478            <intent-filter>
+478-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:75:13-77:29
+479                <action android:name="android.intent.action.VIEW" />
+479-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:17-69
+479-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:193:25-66
+480            </intent-filter>
+481        </activity>
+482
+483        <service
+483-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:80:9-82:40
+484            android:name="com.onesignal.FCMIntentService"
+484-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:81:13-58
+485            android:exported="false" />
+485-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:82:13-37
+486        <service
+486-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:83:9-86:72
+487            android:name="com.onesignal.FCMIntentJobService"
+487-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:84:13-61
+488            android:exported="false"
+488-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:85:13-37
+489            android:permission="android.permission.BIND_JOB_SERVICE" />
+489-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:86:13-69
+490        <service
+490-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:87:9-90:43
+491            android:name="com.onesignal.SyncService"
+491-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:88:13-53
+492            android:exported="false"
+492-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:89:13-37
+493            android:stopWithTask="true" />
+493-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:90:13-40
+494        <service
+494-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:91:9-94:72
+495            android:name="com.onesignal.SyncJobService"
+495-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:92:13-56
+496            android:exported="false"
+496-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:93:13-37
+497            android:permission="android.permission.BIND_JOB_SERVICE" />
+497-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:94:13-69
+498
+499        <activity
+499-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:96:9-99:75
+500            android:name="com.onesignal.PermissionsActivity"
+500-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:97:13-61
+501            android:exported="false"
+501-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:98:13-37
+502            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+502-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:99:13-72
+503
+504        <receiver
+504-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:101:9-103:39
+505            android:name="com.onesignal.NotificationDismissReceiver"
+505-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:102:13-69
+506            android:exported="true" />
+506-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:103:13-36
+507        <receiver
+507-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:104:9-111:20
+508            android:name="com.onesignal.BootUpReceiver"
+508-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:105:13-56
+509            android:exported="true" >
+509-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:106:13-36
+510            <intent-filter>
+510-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:107:13-110:29
+511                <action android:name="android.intent.action.BOOT_COMPLETED" />
+511-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:108:17-79
+511-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:108:25-76
+512                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+512-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:109:17-82
+512-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:109:25-79
+513            </intent-filter>
+514        </receiver>
+515        <receiver
+515-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:112:9-118:20
+516            android:name="com.onesignal.UpgradeReceiver"
+516-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:113:13-57
+517            android:exported="true" >
+517-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:114:13-36
+518            <intent-filter>
+518-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:115:13-117:29
+519                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+519-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:116:17-84
+519-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:116:25-81
+520            </intent-filter>
+521        </receiver>
+522
+523        <activity
+523-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:120:9-126:75
+524            android:name="com.onesignal.NotificationOpenedReceiver"
+524-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:121:13-68
+525            android:excludeFromRecents="true"
+525-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:122:13-46
+526            android:exported="true"
+526-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:123:13-36
+527            android:noHistory="true"
+527-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:124:13-37
+528            android:taskAffinity=""
+528-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:125:13-36
+529            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+529-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:126:13-72
+530        <activity
+530-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:127:9-132:75
+531            android:name="com.onesignal.NotificationOpenedReceiverAndroid22AndOlder"
+531-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:128:13-85
+532            android:excludeFromRecents="true"
+532-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:129:13-46
+533            android:exported="true"
+533-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:130:13-36
+534            android:noHistory="true"
+534-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:131:13-37
+535            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+535-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:132:13-72
+536        <activity android:name="com.facebook.CustomTabMainActivity" />
+536-->[com.facebook.android:facebook-common:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/a92bd4361c61163ada8ef4f62f57d9bb/transformed/jetified-facebook-common-12.0.0/AndroidManifest.xml:34:9-71
+536-->[com.facebook.android:facebook-common:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/a92bd4361c61163ada8ef4f62f57d9bb/transformed/jetified-facebook-common-12.0.0/AndroidManifest.xml:34:19-68
+537
+538        <receiver
+538-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:40:9-46:20
+539            android:name="com.razorpay.RzpTokenReceiver"
+539-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:41:13-57
+540            android:exported="false" >
+540-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:42:13-37
+541            <intent-filter>
+541-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:43:13-45:29
+542                <action android:name="rzp.device_token.share" />
+542-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:44:17-65
+542-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:44:25-62
+543            </intent-filter>
+544        </receiver>
+545
+546        <activity
+546-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:48:9-60:20
+547            android:name="com.razorpay.CheckoutActivity"
+547-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:49:13-57
+548            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+548-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:50:13-83
+549            android:exported="true"
+549-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:51:13-36
+550            android:theme="@style/CheckoutTheme" >
+550-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:52:13-49
+551            <intent-filter>
+551-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:53:13-59:29
+552                <action android:name="android.intent.action.MAIN" />
+552-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:166:17-69
+552-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:166:25-66
+553
+554                <data
+554-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:17-75
+555                    android:host="rzp.io"
+556                    android:scheme="io.rzp" />
+556-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:198:23-72
+557            </intent-filter>
+558        </activity>
+559
+560        <meta-data
+560-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:62:9-64:58
+561            android:name="com.razorpay.plugin.googlepay_all"
+561-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:63:13-61
+562            android:value="com.razorpay.RzpGpayMerged" />
+562-->[com.razorpay:checkout:1.6.19] /Users/sapnarathod/.gradle/caches/transforms-3/7f88e70df5370b365a5d06c60019df5e/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:64:13-55
+563
+564        <service
+564-->[com.google.firebase:firebase-firestore:24.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/0a40fe69a2a484729833b4d16437ea8b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:17:9-23:19
+565            android:name="com.google.firebase.components.ComponentDiscoveryService"
+565-->[com.google.firebase:firebase-firestore:24.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/0a40fe69a2a484729833b4d16437ea8b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:18:13-84
+566            android:directBootAware="true"
+566-->[com.google.firebase:firebase-common:20.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f5765cb7d644e1674a7a2d12ab3df0ff/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+567            android:exported="false" >
+567-->[com.google.firebase:firebase-firestore:24.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/0a40fe69a2a484729833b4d16437ea8b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:19:13-37
+568            <meta-data
+568-->[com.google.firebase:firebase-firestore:24.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/0a40fe69a2a484729833b4d16437ea8b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:20:13-22:85
+569                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+569-->[com.google.firebase:firebase-firestore:24.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/0a40fe69a2a484729833b4d16437ea8b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:21:17-111
+570                android:value="com.google.firebase.components.ComponentRegistrar" />
+570-->[com.google.firebase:firebase-firestore:24.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/0a40fe69a2a484729833b4d16437ea8b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:22:17-82
+571            <meta-data
+571-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+572                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+572-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+573                android:value="com.google.firebase.components.ComponentRegistrar" />
+573-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+574            <meta-data
+574-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/sapnarathod/.gradle/caches/transforms-3/64a16abed4baa206794c452c865f1c1c/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:18:13-20:85
+575                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+575-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/sapnarathod/.gradle/caches/transforms-3/64a16abed4baa206794c452c865f1c1c/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:19:17-115
+576                android:value="com.google.firebase.components.ComponentRegistrar" />
+576-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/sapnarathod/.gradle/caches/transforms-3/64a16abed4baa206794c452c865f1c1c/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:20:17-82
+577            <meta-data
+577-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/be6a3f2330c996a8ff48927651aadceb/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+578                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+578-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/be6a3f2330c996a8ff48927651aadceb/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+579                android:value="com.google.firebase.components.ComponentRegistrar" />
+579-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/be6a3f2330c996a8ff48927651aadceb/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+580            <meta-data
+580-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/b0c142013de9b16f4455163d378aaf6e/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:30:13-32:85
+581                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+581-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/b0c142013de9b16f4455163d378aaf6e/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:31:17-139
+582                android:value="com.google.firebase.components.ComponentRegistrar" />
+582-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/b0c142013de9b16f4455163d378aaf6e/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:32:17-82
+583            <meta-data
+583-->[com.google.firebase:firebase-installations:17.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/bcfd43ee4f39fa01d336c8f961a9a15b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+584                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+584-->[com.google.firebase:firebase-installations:17.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/bcfd43ee4f39fa01d336c8f961a9a15b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+585                android:value="com.google.firebase.components.ComponentRegistrar" />
+585-->[com.google.firebase:firebase-installations:17.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/bcfd43ee4f39fa01d336c8f961a9a15b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+586        </service>
+587
+588        <receiver
+588-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+589            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+589-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+590            android:exported="true"
+590-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+591            android:permission="com.google.android.c2dm.permission.SEND" >
+591-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+592            <intent-filter>
+592-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+593                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+593-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:56:17-81
+593-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:56:25-78
+594            </intent-filter>
+595        </receiver>
+596        <!--
+597             FirebaseMessagingService performs security checks at runtime,
+598             but set to not exported to explicitly avoid allowing another app to call it.
+599        -->
+600        <service
+600-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+601            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+601-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+602            android:directBootAware="true"
+602-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+603            android:exported="false" >
+603-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f17133b6602771bb9e481f697e422049/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+604            <intent-filter android:priority="-500" >
+604-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:230:13-232:29
+605                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+605-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:231:17-78
+605-->/Users/sapnarathod/Downloads/android_swagliv/app/src/main/AndroidManifest.xml:231:25-75
+606            </intent-filter>
+607        </service>
+608
+609        <activity
+609-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+610            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+610-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+611            android:excludeFromRecents="true"
+611-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+612            android:exported="false"
+612-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+613            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+613-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+614        <!--
+615            Service handling Google Sign-In user revocation. For apps that do not integrate with
+616            Google Sign-In, this service will never be started.
+617        -->
+618        <service
+618-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+619            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+619-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+620            android:exported="true"
+620-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+621            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+621-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+622            android:visibleToInstantApps="true" />
+622-->[com.google.android.gms:play-services-auth:20.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/8fcf88434ff6a0d183e34de16b54b7f7/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+623
+624        <provider
+624-->[com.squareup.picasso:picasso:2.71828] /Users/sapnarathod/.gradle/caches/transforms-3/b9bab565748ccd9a62d656492b430340/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+625            android:name="com.squareup.picasso.PicassoProvider"
+625-->[com.squareup.picasso:picasso:2.71828] /Users/sapnarathod/.gradle/caches/transforms-3/b9bab565748ccd9a62d656492b430340/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+626            android:authorities="com.app.swagliv.com.squareup.picasso"
+626-->[com.squareup.picasso:picasso:2.71828] /Users/sapnarathod/.gradle/caches/transforms-3/b9bab565748ccd9a62d656492b430340/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+627            android:exported="false" />
+627-->[com.squareup.picasso:picasso:2.71828] /Users/sapnarathod/.gradle/caches/transforms-3/b9bab565748ccd9a62d656492b430340/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+628
+629        <service
+629-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/7dd5a35f62b0a7e65b43723fb4081a9f/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:29:9-35:19
+630            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+630-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/7dd5a35f62b0a7e65b43723fb4081a9f/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:30:13-103
+631            android:exported="false" >
+631-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/7dd5a35f62b0a7e65b43723fb4081a9f/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:31:13-37
+632            <meta-data
+632-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/7dd5a35f62b0a7e65b43723fb4081a9f/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:32:13-34:39
+633                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+633-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/7dd5a35f62b0a7e65b43723fb4081a9f/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:33:17-94
+634                android:value="cct" />
+634-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/7dd5a35f62b0a7e65b43723fb4081a9f/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:34:17-36
+635        </service>
+636        <service
+636-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/6091a153b454cbb2f2e2d38ba04d2c15/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:26:9-30:19
+637            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+637-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/6091a153b454cbb2f2e2d38ba04d2c15/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:27:13-117
+638            android:exported="false"
+638-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/6091a153b454cbb2f2e2d38ba04d2c15/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:28:13-37
+639            android:permission="android.permission.BIND_JOB_SERVICE" >
+639-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/6091a153b454cbb2f2e2d38ba04d2c15/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:29:13-69
+640        </service>
+641
+642        <receiver
+642-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/6091a153b454cbb2f2e2d38ba04d2c15/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:32:9-34:40
+643            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+643-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/6091a153b454cbb2f2e2d38ba04d2c15/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:33:13-132
+644            android:exported="false" />
+644-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/sapnarathod/.gradle/caches/transforms-3/6091a153b454cbb2f2e2d38ba04d2c15/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:34:13-37
+645
+646        <provider
+646-->[com.google.firebase:firebase-common:20.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f5765cb7d644e1674a7a2d12ab3df0ff/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+647            android:name="com.google.firebase.provider.FirebaseInitProvider"
+647-->[com.google.firebase:firebase-common:20.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f5765cb7d644e1674a7a2d12ab3df0ff/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+648            android:authorities="com.app.swagliv.firebaseinitprovider"
+648-->[com.google.firebase:firebase-common:20.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f5765cb7d644e1674a7a2d12ab3df0ff/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+649            android:directBootAware="true"
+649-->[com.google.firebase:firebase-common:20.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f5765cb7d644e1674a7a2d12ab3df0ff/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+650            android:exported="false"
+650-->[com.google.firebase:firebase-common:20.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f5765cb7d644e1674a7a2d12ab3df0ff/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+651            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+651-->[com.google.firebase:firebase-common:20.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/f5765cb7d644e1674a7a2d12ab3df0ff/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+652        <uses-library
+652-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/72f47104693aa598cfc49b2e8056e267/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+653            android:name="org.apache.http.legacy"
+653-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/72f47104693aa598cfc49b2e8056e267/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+654            android:required="false" />
+654-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/72f47104693aa598cfc49b2e8056e267/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+655
+656        <activity
+656-->[com.google.android.gms:play-services-base:18.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/9e6451bd465f87ee162556ee228374b7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+657            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+657-->[com.google.android.gms:play-services-base:18.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/9e6451bd465f87ee162556ee228374b7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+658            android:exported="false"
+658-->[com.google.android.gms:play-services-base:18.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/9e6451bd465f87ee162556ee228374b7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+659            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+659-->[com.google.android.gms:play-services-base:18.0.1] /Users/sapnarathod/.gradle/caches/transforms-3/9e6451bd465f87ee162556ee228374b7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+660
+661        <receiver
+661-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:29:9-33:20
+662            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+662-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:30:13-85
+663            android:enabled="true"
+663-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:31:13-35
+664            android:exported="false" >
+664-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:32:13-37
+665        </receiver>
+666
+667        <service
+667-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:35:9-38:40
+668            android:name="com.google.android.gms.measurement.AppMeasurementService"
+668-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:36:13-84
+669            android:enabled="true"
+669-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:37:13-35
+670            android:exported="false" />
+670-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:38:13-37
+671        <service
+671-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:39:9-43:72
+672            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+672-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:40:13-87
+673            android:enabled="true"
+673-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:41:13-35
+674            android:exported="false"
+674-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:42:13-37
+675            android:permission="android.permission.BIND_JOB_SERVICE" />
+675-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/sapnarathod/.gradle/caches/transforms-3/1a78c94f558dc0eed4c98a9e9d1b27a2/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:43:13-69
+676
+677        <meta-data
+677-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/186e7bcfad637810bd949a13085ea9ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+678            android:name="com.google.android.gms.version"
+678-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/186e7bcfad637810bd949a13085ea9ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+679            android:value="@integer/google_play_services_version" />
+679-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/186e7bcfad637810bd949a13085ea9ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+680
+681        <provider
+681-->[androidx.emoji2:emoji2:1.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/50326c4907e043635eb7f9b807e7a4ef/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+682            android:name="androidx.startup.InitializationProvider"
+682-->[androidx.emoji2:emoji2:1.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/50326c4907e043635eb7f9b807e7a4ef/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+683            android:authorities="com.app.swagliv.androidx-startup"
+683-->[androidx.emoji2:emoji2:1.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/50326c4907e043635eb7f9b807e7a4ef/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+684            android:exported="false" >
+684-->[androidx.emoji2:emoji2:1.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/50326c4907e043635eb7f9b807e7a4ef/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+685            <meta-data
+685-->[androidx.emoji2:emoji2:1.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/50326c4907e043635eb7f9b807e7a4ef/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+686                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+686-->[androidx.emoji2:emoji2:1.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/50326c4907e043635eb7f9b807e7a4ef/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+687                android:value="androidx.startup" />
+687-->[androidx.emoji2:emoji2:1.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/50326c4907e043635eb7f9b807e7a4ef/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+688            <meta-data
+688-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+689                android:name="androidx.work.WorkManagerInitializer"
+689-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+690                android:value="androidx.startup" />
+690-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+691            <meta-data
+691-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sapnarathod/.gradle/caches/transforms-3/8559ad33f4691dfcc30f813361b258dd/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+692                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+692-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sapnarathod/.gradle/caches/transforms-3/8559ad33f4691dfcc30f813361b258dd/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+693                android:value="androidx.startup" />
+693-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sapnarathod/.gradle/caches/transforms-3/8559ad33f4691dfcc30f813361b258dd/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+694        </provider>
+695        <!--
+696         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+697         with the application context. This config is merged in with the host app's manifest,
+698         but there can only be one provider with the same authority activated at any given
+699         point; so if the end user has two or more different apps that use Facebook SDK, only the
+700         first one will be able to use the provider. To work around this problem, we use the
+701         following placeholder in the authority to identify each host application as if it was
+702         a completely different provider.
+703        -->
+704        <provider
+704-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:39:9-42:40
+705            android:name="com.facebook.internal.FacebookInitProvider"
+705-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:40:13-70
+706            android:authorities="com.app.swagliv.FacebookInitProvider"
+706-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:41:13-72
+707            android:exported="false" />
+707-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:42:13-37
+708
+709        <receiver
+709-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:44:9-50:20
+710            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+710-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:45:13-86
+711            android:exported="false" >
+711-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:46:13-37
+712            <intent-filter>
+712-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:47:13-49:29
+713                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+713-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:48:17-95
+713-->[com.facebook.android:facebook-core:12.0.0] /Users/sapnarathod/.gradle/caches/transforms-3/14a38c1d463cf2e14506db3f7918ae40/transformed/jetified-facebook-core-12.0.0/AndroidManifest.xml:48:25-92
+714            </intent-filter>
+715        </receiver>
+716
+717        <service
+717-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+718            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+718-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+719            android:directBootAware="false"
+719-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+720            android:enabled="@bool/enable_system_alarm_service_default"
+720-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+721            android:exported="false" />
+721-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+722        <service
+722-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+723            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+723-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+724            android:directBootAware="false"
+724-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+725            android:enabled="@bool/enable_system_job_service_default"
+725-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+726            android:exported="true"
+726-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+727            android:permission="android.permission.BIND_JOB_SERVICE" />
+727-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+728        <service
+728-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+729            android:name="androidx.work.impl.foreground.SystemForegroundService"
+729-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+730            android:directBootAware="false"
+730-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+731            android:enabled="@bool/enable_system_foreground_service_default"
+731-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+732            android:exported="false" />
+732-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+733
+734        <receiver
+734-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+735            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+735-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+736            android:directBootAware="false"
+736-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+737            android:enabled="true"
+737-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+738            android:exported="false" />
+738-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+739        <receiver
+739-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+740            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+740-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+741            android:directBootAware="false"
+741-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+742            android:enabled="false"
+742-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+743            android:exported="false" >
+743-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+744            <intent-filter>
+744-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+745                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+745-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+745-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+746                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+746-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+746-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+747            </intent-filter>
+748        </receiver>
+749        <receiver
+749-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+750            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+750-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+751            android:directBootAware="false"
+751-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+752            android:enabled="false"
+752-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+753            android:exported="false" >
+753-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+754            <intent-filter>
+754-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+755                <action android:name="android.intent.action.BATTERY_OKAY" />
+755-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+755-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+756                <action android:name="android.intent.action.BATTERY_LOW" />
+756-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+756-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+757            </intent-filter>
+758        </receiver>
+759        <receiver
+759-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+760            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+760-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+761            android:directBootAware="false"
+761-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+762            android:enabled="false"
+762-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+763            android:exported="false" >
+763-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+764            <intent-filter>
+764-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+765                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+765-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+765-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+766                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+766-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+766-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+767            </intent-filter>
+768        </receiver>
+769        <receiver
+769-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+770            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+770-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+771            android:directBootAware="false"
+771-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+772            android:enabled="false"
+772-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+773            android:exported="false" >
+773-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+774            <intent-filter>
+774-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+775                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+775-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+775-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+776            </intent-filter>
+777        </receiver>
+778        <receiver
+778-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+779            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+779-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+780            android:directBootAware="false"
+780-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+781            android:enabled="false"
+781-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+782            android:exported="false" >
+782-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+783            <intent-filter>
+783-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+784                <action android:name="android.intent.action.BOOT_COMPLETED" />
+784-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:108:17-79
+784-->[com.onesignal:OneSignal:4.7.0] /Users/sapnarathod/.gradle/caches/transforms-3/64b9e733c11320abf82117670946f24b/transformed/jetified-OneSignal-4.7.0/AndroidManifest.xml:108:25-76
+785                <action android:name="android.intent.action.TIME_SET" />
+785-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+785-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+786                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+786-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+786-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+787            </intent-filter>
+788        </receiver>
+789        <receiver
+789-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+790            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+790-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+791            android:directBootAware="false"
+791-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+792            android:enabled="@bool/enable_system_alarm_service_default"
+792-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+793            android:exported="false" >
+793-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+794            <intent-filter>
+794-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+795                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+795-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+795-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+796            </intent-filter>
+797        </receiver>
+798        <receiver
+798-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+799            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+799-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+800            android:directBootAware="false"
+800-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+801            android:enabled="true"
+801-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+802            android:exported="true"
+802-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+803            android:permission="android.permission.DUMP" >
+803-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+804            <intent-filter>
+804-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+805                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+805-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+805-->[androidx.work:work-runtime:2.7.1] /Users/sapnarathod/.gradle/caches/transforms-3/8e73d7e46004de7407bcf7e532f229d8/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+806            </intent-filter>
+807        </receiver>
+808
+809        <service
+809-->[androidx.room:room-runtime:2.2.5] /Users/sapnarathod/.gradle/caches/transforms-3/eff5d1d2593701a7681d47582af94613/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+810            android:name="androidx.room.MultiInstanceInvalidationService"
+810-->[androidx.room:room-runtime:2.2.5] /Users/sapnarathod/.gradle/caches/transforms-3/eff5d1d2593701a7681d47582af94613/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+811            android:directBootAware="true"
+811-->[androidx.room:room-runtime:2.2.5] /Users/sapnarathod/.gradle/caches/transforms-3/eff5d1d2593701a7681d47582af94613/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+812            android:exported="false" />
+812-->[androidx.room:room-runtime:2.2.5] /Users/sapnarathod/.gradle/caches/transforms-3/eff5d1d2593701a7681d47582af94613/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+813
+814        <activity
+814-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:14:9-18:64
+815            android:name="io.agora.rtc.ss.impl.ScreenSharing$LocalScreenCaptureAssistantActivity"
+815-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:15:13-98
+816            android:configChanges="screenSize|orientation"
+816-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:16:13-59
+817            android:screenOrientation="fullUser"
+817-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:17:13-49
+818            android:theme="@android:style/Theme.Translucent" />
+818-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:18:13-61
+819
+820        <service
+820-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:20:9-26:19
+821            android:name="io.agora.rtc.ss.impl.LocalScreenSharingService"
+821-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:21:13-74
+822            android:foregroundServiceType="mediaProjection" >
+822-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:22:13-60
+823            <intent-filter>
+823-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:23:13-25:29
+824                <action android:name="android.intent.action.screenshare" />
+824-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:24:17-76
+824-->[io.agora.rtc:full-screen-sharing:3.6.2] /Users/sapnarathod/.gradle/caches/transforms-3/ab09958d361fa6990cb2094c8a4518fa/transformed/jetified-full-screen-sharing-3.6.2/AndroidManifest.xml:24:25-73
+825            </intent-filter>
+826        </service>
+827    </application>
+828
+829</manifest>
