@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/sapnarathod/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/.cxx/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"apm-plugin-agora-rtc-player-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "apm-plugin-agora-rtc-player",
+			"buildCommand" : "/Users/sapnarathod/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/.cxx/cmake/debug/x86 --target apm-plugin-agora-rtc-player",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android18 --gcc-toolchain=/Users/sapnarathod/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/sapnarathod/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dapm_plugin_agora_rtc_player_EXPORTS -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/src/main/cpp/agora_plugin_rtc.cpp",
+					"workingDirectory" : "/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/build/intermediates/cmake/debug/obj/x86/libapm-plugin-agora-rtc-player.so",
+			"toolchain" : "3054317206360267053"
+		}
+	},
+	"toolchains" : 
+	{
+		"3054317206360267053" : 
+		{
+			"cCompilerExecutable" : "/Users/sapnarathod/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/sapnarathod/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

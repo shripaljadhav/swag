@@ -1,0 +1,24 @@
+                    Executable : /Users/sapnarathod/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Volumes/Software/LiveStream/android_swagliv/lib-player-helper
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=18
+-DANDROID_PLATFORM=android-18
+-DANDROID_ABI=armeabi-v7a
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DANDROID_NDK=/Users/sapnarathod/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/Users/sapnarathod/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/Users/sapnarathod/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/sapnarathod/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++11 
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/build/intermediates/cxx/Debug/l1p3u516/obj/armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/build/intermediates/cxx/Debug/l1p3u516/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-B/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/.cxx/Debug/l1p3u516/armeabi-v7a
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

@@ -1,0 +1,3 @@
+/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/.cxx/Debug/l1p3u516/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/.cxx/Debug/l1p3u516/arm64-v8a/CMakeFiles/edit_cache.dir
+/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/.cxx/Debug/l1p3u516/arm64-v8a/CMakeFiles/apm-plugin-agora-rtc-player.dir

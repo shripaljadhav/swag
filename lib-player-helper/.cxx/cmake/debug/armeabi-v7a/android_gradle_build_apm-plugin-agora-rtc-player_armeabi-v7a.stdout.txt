@@ -1,0 +1,29 @@
+[1/2] Building CXX object CMakeFiles/apm-plugin-agora-rtc-player.dir/src/main/cpp/agora_plugin_rtc.cpp.o
+In file included from /Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/src/main/cpp/agora_plugin_rtc.cpp:5:
+../../../../src/main/cpp/include/IAgoraRtcEngine.h:11032:28: warning: 'VOICE_CHANGER_PRESET' is deprecated [-Wdeprecated-declarations]
+  int setLocalVoiceChanger(VOICE_CHANGER_PRESET voiceChanger);
+                           ^
+../../../../src/main/cpp/include/IAgoraRtcEngine.h:1158:6: note: 'VOICE_CHANGER_PRESET' has been explicitly marked deprecated here
+enum AGORA_DEPRECATED_ATTRIBUTE VOICE_CHANGER_PRESET {
+     ^
+../../../../src/main/cpp/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+In file included from /Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/src/main/cpp/agora_plugin_rtc.cpp:5:
+../../../../src/main/cpp/include/IAgoraRtcEngine.h:11033:33: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+  int setLocalVoiceReverbPreset(AUDIO_REVERB_PRESET reverbPreset);
+                                ^
+../../../../src/main/cpp/include/IAgoraRtcEngine.h:1242:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+     ^
+../../../../src/main/cpp/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/src/main/cpp/agora_plugin_rtc.cpp:319:42: warning: format specifies type 'unsigned int' but the argument has type 'agora::media::IMediaEngine *' [-Wformat]
+        XLOGI("TJY mediaEngine_ init %X",mediaEngine_);
+                                     ~~  ^~~~~~~~~~~~
+/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/src/main/cpp/agora_plugin_rtc.cpp:19:75: note: expanded from macro 'XLOGI'
+#define XLOGI(...) __android_log_print(ANDROID_LOG_INFO,"[player_native]",__VA_ARGS__)
+                                                                          ^~~~~~~~~~~
+3 warnings generated.
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libapm-plugin-agora-rtc-player.so

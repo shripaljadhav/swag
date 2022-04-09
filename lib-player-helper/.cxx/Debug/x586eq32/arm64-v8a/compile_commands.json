@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/.cxx/Debug/x586eq32/arm64-v8a",
+  "command": "/Users/sapnarathod/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/sapnarathod/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/sapnarathod/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dapm_plugin_agora_rtc_player_EXPORTS -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apm-plugin-agora-rtc-player.dir/src/main/cpp/agora_plugin_rtc.cpp.o -c /Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/src/main/cpp/agora_plugin_rtc.cpp",
+  "file": "/Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/src/main/cpp/agora_plugin_rtc.cpp"
+}
+]

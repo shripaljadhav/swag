@@ -1,0 +1,2 @@
+ninja: Entering directory `/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/.cxx/Debug/l1p3u516/armeabi-v7a'
+ninja: no work to do.

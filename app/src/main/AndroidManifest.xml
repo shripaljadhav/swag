@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.swagliv">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+    <application
+        android:name=".SwagLivApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/date_flu_logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/date_flu_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Swagliv.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:theme">
+        <!-- name doesn't change, value = your class fully name spaced-->
+        <meta-data android:name="com.onesignal.NotificationServiceExtension"
+            android:value="com.app.swagliv.model.livestream.NotificationServiceExtension" />
+        <activity
+            android:name=".view.activities.BroadcastPlayerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.activities.SelectHostActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".view.activities.SearchGIFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activities.TrackComplaintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activities.ShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activities.PortfolioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activities.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activities.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activities.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activities.ChatActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.activities.SideBarActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.PurchaseHistoryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.HelpAndFaqActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.SearchCrushActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".view.activities.ManageConnectionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".view.activities.SearchScreenActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.WalletActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.FeedbackActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.ComplaintActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.TopSheetAvtivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.PassionSelectionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.EditProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.UserProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.EmailSignInActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.IntroActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.OtpVerifyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.SubscriptionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.SignUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.LocationGPSAllowPermissionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.SplashActivity"
+            
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activities.DashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <meta-data
+            android:name="com.facebook.sdk.AutoInitEnabled"
+            android:value="true" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activities.PhoneActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".image_upload_service.UserDocumentUploadService"
+            android:exported="false" /> <!-- Twilio -->
+        <activity
+            android:name=".twiliovoice.VoiceActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".twiliovoice.IncomingCallNotificationService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="ACTION_ACCEPT" />
+                <action android:name="ACTION_REJECT" />
+            </intent-filter>
+        </service> <!-- [START fcm_listener] -->
+        <service
+            android:name=".twiliovoice.fcm.VoiceFirebaseMessagingService"
+            android:exported="false"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".view.activities.AddProductImagesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa"/>
+        <activity
+            android:name=".view.activities.AddProductActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa"/>
+        <activity
+            android:name=".view.activities.StoreProductDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa"/>
+        <activity
+            android:name=".view.activities.ImagePreviewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa"/>
+        <activity
+            android:name=".view.activities.ShoppingForLoveActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+        <activity
+            android:name=".view.activities.CreateAddressActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+        <activity
+            android:name=".view.activities.EditAddressActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+        <activity
+            android:name=".view.activities.ShoppingCartActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+        <activity
+            android:name=".view.activities.DeliveryAddressActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+        <activity
+            android:name=".view.activities.StoreActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".view.activities.ProductListingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".view.activities.MyOrderActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+        <activity
+            android:name=".view.activities.MyOrderDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swagliv.NoActionBar.Salsa" />
+    </application>
+
+</manifest>

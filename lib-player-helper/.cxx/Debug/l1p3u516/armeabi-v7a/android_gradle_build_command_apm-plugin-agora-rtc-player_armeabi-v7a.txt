@@ -1,0 +1,7 @@
+Executable : /Users/sapnarathod/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/.cxx/Debug/l1p3u516/armeabi-v7a
+apm-plugin-agora-rtc-player
+jvmArgs : 
+

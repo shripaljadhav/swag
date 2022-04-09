@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".view.activities.EmailSignInActivity">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/signin" />
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/CustomCardViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:theme="@style/Theme.MaterialComponents.DayNight"
+                app:cardElevation="@dimen/dp10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/dp20"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp12"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:text="@string/sign_in"
+                            android:fontFamily="@font/salsa_regular"
+                            android:textColor="@color/dark_pink"
+                            android:textSize="@dimen/dp30" />
+
+                        <EditText
+                            android:id="@+id/email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:hint="@string/email"
+                            android:paddingVertical="@dimen/dp15"
+                            android:paddingLeft="@dimen/dp20"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/transparant_gray"
+                            android:fontFamily="@font/salsa_regular"
+                            android:textSize="@dimen/dp15" />
+
+                        <EditText
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:hint="@string/password"
+                            android:inputType="textPassword"
+                            android:paddingVertical="@dimen/dp15"
+                            android:paddingLeft="@dimen/dp20"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/transparant_gray"
+                            android:fontFamily="@font/salsa_regular"
+                            android:textSize="@dimen/dp15" />
+
+                        <TextView
+                            android:id="@+id/forgot_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:text="@string/forgot_password"
+                            android:fontFamily="@font/salsa_regular"
+                            android:textColor="@color/sky_blue" />
+
+                        <TextView
+                            android:id="@+id/email_signin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp25"
+                            android:background="@drawable/colorbtn"
+                            android:gravity="center"
+                            android:paddingHorizontal="@dimen/dp20"
+                            android:paddingVertical="@dimen/dp15"
+                            android:text="@string/sign_in"
+                            android:fontFamily="@font/salsa_regular"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dp20" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_or_signIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dp25"
+                        android:backgroundTint="@color/pink1"
+                        android:paddingVertical="@dimen/dp15"
+                        android:paddingLeft="@dimen/dp20"
+                        android:text="@string/sign_in_with"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp15" />
+
+                    <LinearLayout
+                        android:id="@+id/social_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp15"
+                            android:layout_marginRight="@dimen/dp15"
+                            android:src="@drawable/ic_fb" />
+
+                        <ImageView
+                            android:id="@+id/google_signin_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_google" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

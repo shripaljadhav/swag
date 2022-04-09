@@ -1,0 +1,3 @@
+/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/.cxx/cmake/debug/x86/CMakeFiles/apm-plugin-agora-rtc-player.dir

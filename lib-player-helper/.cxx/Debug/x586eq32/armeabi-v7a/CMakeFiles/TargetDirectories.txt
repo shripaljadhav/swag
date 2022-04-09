@@ -1,0 +1,3 @@
+/Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/.cxx/Debug/x586eq32/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/.cxx/Debug/x586eq32/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/sapnarathod/Downloads/android_swagliv/lib-player-helper/.cxx/Debug/x586eq32/armeabi-v7a/CMakeFiles/apm-plugin-agora-rtc-player.dir

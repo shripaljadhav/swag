@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.activities.EditProfileActivity">
+
+        <include
+            android:id="@+id/Edit_header"
+            layout="@layout/common_header" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/Edit_header"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/profile_drawable"
+                    android:layout_marginLeft="@dimen/dimen_16"
+                    android:layout_marginTop="@dimen/dp24"
+                    android:layout_marginRight="@dimen/dimen_16"
+                    android:paddingLeft="@dimen/dp4"
+                    android:paddingRight="@dimen/dp4">
+
+                    <com.skydoves.powerspinner.PowerSpinnerView
+                        android:id="@+id/spinner_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:textSize="@dimen/sp15"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        android:hint="@string/txt_categories"
+                        android:textColorHint="@color/black"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="@dimen/dp8"
+                        app:spinner_divider_color="@color/colorDivider"
+                        app:spinner_divider_show="true"
+                        app:spinner_divider_size="0.4dp"
+                        app:spinner_popup_animation="dropdown"
+                        app:spinner_popup_background="@android:color/black"
+                        app:spinner_popup_elevation="14dp"
+                        app:spinner_arrow_tint="@color/dark_pink"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/profile_drawable"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_marginTop="@dimen/dp18"
+                    android:layout_marginRight="@dimen/dp16"
+                    android:paddingLeft="@dimen/dp4"
+                    android:paddingRight="@dimen/dp4">
+
+                    <com.skydoves.powerspinner.PowerSpinnerView
+                        android:id="@+id/spinner_sub_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:textSize="@dimen/sp15"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        android:hint="@string/txt_sub_categories"
+                        android:textColorHint="@color/black"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="@dimen/dp8"
+                        app:spinner_divider_color="@color/colorDivider"
+                        app:spinner_divider_show="true"
+                        app:spinner_divider_size="0.4dp"
+                        app:spinner_popup_animation="dropdown"
+                        app:spinner_popup_background="@android:color/black"
+                        app:spinner_popup_elevation="14dp"
+                        app:spinner_arrow_tint="@color/dark_pink"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/lay2"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_marginTop="@dimen/dp18"
+                    android:layout_marginRight="@dimen/dp16"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/profile_drawable"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp15">
+
+                        <TextView
+                            android:id="@+id/textview_product_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="@string/txt_product_name"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp15" />
+
+                        <EditText
+                            android:id="@+id/edittext_product_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintLeft_toRightOf="@id/textview_product_name"
+                            app:layout_constraintRight_toRightOf="parent"
+                            android:background="@null"
+                            android:textSize="@dimen/sp15"
+                            tools:text="@string/jenny"
+                            android:layout_marginLeft="@dimen/dp10"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp18"
+                        android:background="@drawable/profile_drawable"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp15">
+
+                        <TextView
+                            android:id="@+id/textview_coin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="@string/coin"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp15" />
+
+                        <EditText
+                            android:id="@+id/edittext_coin"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintLeft_toRightOf="@id/textview_coin"
+                            app:layout_constraintRight_toRightOf="parent"
+                            android:background="@null"
+                            android:textSize="@dimen/sp15"
+                            tools:text="@string/jenny"
+                            android:layout_marginLeft="@dimen/dp10"
+                            android:inputType="number"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp18"
+                        android:background="@drawable/profile_drawable"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp15">
+
+                        <TextView
+                            android:id="@+id/textview_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="@string/description"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp15" />
+
+                        <EditText
+                            android:id="@+id/edittext_description"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintLeft_toRightOf="@id/textview_description"
+                            app:layout_constraintRight_toRightOf="parent"
+                            android:background="@null"
+                            android:textSize="@dimen/sp15"
+                            tools:text="@string/jenny"
+                            android:layout_marginLeft="@dimen/dp10"
+                            android:lines="4"
+                            android:inputType="textMultiLine"
+                            android:gravity="start"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp18"
+                        android:background="@drawable/profile_drawable"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp15">
+
+                        <TextView
+                            android:id="@+id/textview_specification"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="@string/specification"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp15" />
+
+                        <EditText
+                            android:id="@+id/edittext_specification"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintLeft_toRightOf="@id/textview_specification"
+                            app:layout_constraintRight_toRightOf="parent"
+                            android:background="@null"
+                            android:textSize="@dimen/sp15"
+                            tools:text="@string/jenny"
+                            android:layout_marginLeft="@dimen/dp10"
+                            android:lines="4"
+                            android:inputType="textMultiLine"
+                            android:gravity="start"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_next"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp50"
+                        android:layout_marginTop="@dimen/dp50"
+                        android:background="@drawable/colorbtn"
+                        android:backgroundTint="@color/dark_pink"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/next_btn"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp15"
+                            android:textAllCaps="true"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

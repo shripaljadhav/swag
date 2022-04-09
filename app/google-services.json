@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542979682818",
+    "project_id": "dateflu-f05a9",
+    "storage_bucket": "dateflu-f05a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542979682818:android:1498133648884837baad1b",
+        "android_client_info": {
+          "package_name": "com.app.swagliv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542979682818-9qnj55utddng3je7c1khi3ero351gd5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4HD2mMzcHU00HYNbaB81hxz6Il9SaCjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542979682818-9qnj55utddng3je7c1khi3ero351gd5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

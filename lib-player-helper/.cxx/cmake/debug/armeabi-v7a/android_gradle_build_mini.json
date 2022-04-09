@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/sapnarathod/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/.cxx/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "apm-plugin-agora-rtc-player-Debug-armeabi-v7a": {
+      "artifactName": "apm-plugin-agora-rtc-player",
+      "buildCommand": "/Users/sapnarathod/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/.cxx/cmake/debug/armeabi-v7a --target apm-plugin-agora-rtc-player",
+      "abi": "armeabi-v7a",
+      "output": "/Users/sapnarathod/Downloads/API-Examples-master/Android/APIExample/lib-player-helper/build/intermediates/cmake/debug/obj/armeabi-v7a/libapm-plugin-agora-rtc-player.so"
+    }
+  }
+}

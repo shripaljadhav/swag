@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp20"
+        android:paddingRight="@dimen/dp20"
+        android:paddingTop="@dimen/dp30"
+        android:paddingBottom="@dimen/dp30"
+        android:background="@drawable/rounded_top_edges">
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/someone_else_is_shopping"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp20"/>
+
+        <LinearLayout
+            android:id="@+id/btn_my_self"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp25"
+            android:background="@drawable/ic_rounded_corner_button"
+            android:backgroundTint="@color/dark_pink"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/textview_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/passion_btn_continue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/my_self"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passion_btn_continue"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp15"
+            android:background="@drawable/colorbtn"
+            android:backgroundTint="@color/dark_pink"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dp10"
+            app:layout_constraintLeft_toRightOf="@id/btn_my_self"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/choose_connection"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp15" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

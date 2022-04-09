@@ -1,0 +1,23 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url "https://oss.jfrog.org/libs-snapshot" }
+    }
+}
+rootProject.name = "Swagliv"
+include ':app', ':libbambuser'
+include ':common'
+include ':chiprecycleview'
+
+include ':progress'
+include ':imagepicker'
+//include ':app', ':lib-raw-data', ':lib-switch-external-video'
+//include ':lib-stream-encrypt'
+include ':lib-component'
+//include ':lib-push-externalvideo'
+//include ':lib-screensharing'
+include ':lib-player-helper'

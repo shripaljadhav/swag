@@ -1,0 +1,6 @@
+# ninja log v5
+1	2322	1648620577	CMakeFiles/apm-plugin-agora-rtc-player.dir/src/main/cpp/agora_plugin_rtc.cpp.o	9188f01b160b9719
+2325	2596	1648620578	../../../../build/intermediates/cxx/Debug/x586eq32/obj/arm64-v8a/libapm-plugin-agora-rtc-player.so	8fa72747d0d04049
+0	10	0	clean	6247beb7aca0b016
+4	4803	1648624843	CMakeFiles/apm-plugin-agora-rtc-player.dir/src/main/cpp/agora_plugin_rtc.cpp.o	9188f01b160b9719
+4803	5084	1648624843	../../../../build/intermediates/cxx/Debug/x586eq32/obj/arm64-v8a/libapm-plugin-agora-rtc-player.so	8fa72747d0d04049

@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/sapnarathod/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/.cxx/RelWithDebInfo/5c6g4d2q/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/sapnarathod/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/.cxx/RelWithDebInfo/5c6g4d2q/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "apm-plugin-agora-rtc-player-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/Users/sapnarathod/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/.cxx/RelWithDebInfo/5c6g4d2q/x86",
+        "apm-plugin-agora-rtc-player"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "apm-plugin-agora-rtc-player",
+      "output": "/Volumes/Software/LiveStream/android_swagliv/lib-player-helper/build/intermediates/cxx/RelWithDebInfo/5c6g4d2q/obj/x86/libapm-plugin-agora-rtc-player.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
